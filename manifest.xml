@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remote names -->
+	<remote name="op"   fetch="https://github.com/OptimusTeam/" />
+
+	<!-- Unofficial Builds -->
+	<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+
+	<!-- Project M4 -->
+	<project path="device/lge/e610" name="android_device_lge_e610"  remote="op" revision="master" />
+
+	<!-- Project U0 -->
+	<project path="device/lge/p700" name="android_device_lge_p700" remote="op" revision="master" />
+
+	<!-- Common Project -->
+	<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" remote="op" revision="master" />
+
+	<!-- Kernel -->
+	<project path="kernel/lge/msm7x27a-kernel" name="lge-kernel-lproj" remote="op" revision="master" />
+
+	<!-- Display CAF -->
+	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+	<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="op" revision="master" />
+
+	<!-- Vendor -->
+	<project path="vendor/lge" name="android_vendor_lge" remote="op" revision="master" />
+
+	<!-- Webkit -->
+	<project path="external/webkit" name="android_external_webkit" remote="op" revision="master" />
+
+</manifest>
