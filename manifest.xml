@@ -22,6 +22,10 @@
 	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
 	<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="op" revision="master" />
 
+	<!-- Media CAF -->
+	<remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
+	<project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="op" revision="master" />
+	
 	<!-- Vendor -->
 	<project path="vendor/lge" name="android_vendor_lge" remote="op" revision="master" />
 
