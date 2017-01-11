@@ -5,6 +5,27 @@
 
 	<!-- Unofficial Builds -->
 	<remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+	<remove-project name="CyanogenMod/android_packages_apps_Apollo" />
+	<remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
+	<remove-project name="CyanogenMod/android_packages_apps_CMHome" />
+	<remove-project name="CyanogenMod/android_packages_apps_CMWallpapers" />
+	<remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
+	<remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+	<remove-project name="CyanogenMod/android_packages_apps_Tag" />
+	<remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
+	<remove-project name="CyanogenMod/android_packages_apps_VoiceDialer" />
+	<remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
+	<remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+	<remove-project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_Basic" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_NoiseField" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
+	<remove-project name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
+	<remove-project name="CyanogenMod/platform/external/svox" />
 
 	<!-- Project M4 -->
 	<project path="device/lge/e610" name="android_device_lge_e610"  remote="op" revision="master" />
