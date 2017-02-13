@@ -25,7 +25,7 @@
 	<remove-project name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
 	<remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
 	<remove-project name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-	<remove-project name="CyanogenMod/platform/external/svox" />
+	<remove-project name="platform/external/svox" />
 
 	<!-- Project M4 -->
 	<project path="device/lge/e610" name="android_device_lge_e610"  remote="op" revision="master" />
